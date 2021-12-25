@@ -33,7 +33,7 @@ def set_png_as_page_bg(png_file):
 
 
 
-pickle_in = open("regressor.pkl","rb")
+pickle_in = open("linear.pkl","rb")
 regressor=pickle.load(pickle_in)
 
 
