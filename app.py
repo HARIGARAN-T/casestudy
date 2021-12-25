@@ -46,7 +46,7 @@ def predict(a):
 def main():
     st.title("Order Value of food - Prediction App")
 
-    set_png_as_page_bg(r'C:\Users\my pc\Desktop\case analytics 2\Enigma Case Study_Updated\pic2.png')
+    set_png_as_page_bg('pic2.png')
     col1, col2 = st.columns(2)
     with col1:
         restaturantid = st.selectbox("RestaturantID",[  2,   3,   4,   5,   6,   7,   8,   9,  10,  12,  13,  14,  15,
